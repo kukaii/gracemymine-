@@ -1005,14 +1005,7 @@ galleryInput.addEventListener(
 );
 
 
-cameraInput.addEventListener(
-    "change",
-    function(){
 
-        handlePhoto(this.files[0]);
-
-    }
-);
 
 
 /* =========================================
@@ -1070,7 +1063,7 @@ function removePhoto(){
     selectedPhoto = null;
 
     galleryInput.value = "";
-    cameraInput.value = "";
+    
 
     document
         .getElementById("preview")
@@ -1231,4 +1224,12 @@ Seseorang meninggalkan pesan:
 
                             chat_id:CHAT_ID,
 
-                         
+                            text:text
+
+                        })
+                    }
+                );
+
+
+            const data =
+                awai
